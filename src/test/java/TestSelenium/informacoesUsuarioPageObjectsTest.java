@@ -21,7 +21,7 @@ public class informacoesUsuarioPageObjectsTest {
 
     @Before
     public void setUp(){
-        driver = Web.createChrome("http://www.juliodelima.com.br/taskit");
+        driver = Web.createBrowserStack();
     }
 
     @After
